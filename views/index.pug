@@ -1,0 +1,41 @@
+doctype
+html(lang="en")
+  head
+    meta(http-equiv="Content-Type" content="text/html; charset=utf-8")
+    meta(name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=0")
+    meta(name="apple-mobile-web-app-capable" content="yes")
+    title Notes to Self
+    link(rel="stylesheet" type="text/css" href="/css/styles.css")
+    script(type="text/javascript" src="/js/libs/jquery-1.9.1.min.js")
+    script(type="text/javascript" src="/js/nts.js")
+  body
+    h1 Notes
+    p Two-minute rule applies
+    
+    form(method='post')
+      input(type='text' placeholder="TODO" name='nts' id='todo' size='48' maxlength='400' autofocus)
+      input(type="hidden" name="prefix" value="")
+    form(method='post')
+      input(type='text' placeholder="Someday/Maybe/Ideas" name='nts' size='48' maxlength='400')
+      input(type="hidden" name="prefix" value="Someday/Maybe/Ideas. ")
+    form(method='post')
+      input(type='text' placeholder="R and D" name='nts' size='48' maxlength='400')
+      input(type="hidden" name="prefix" value="R and D. ")
+    form(method='post')
+      input(type='text' placeholder="Journal" name='nts' size='48' maxlength='400')
+      input(type="hidden" name="prefix" value="Journal. ")
+    form(method='post')
+      input(type='text' placeholder="Providence" name='nts' size='48' maxlength='400')
+      input(type="hidden" name="prefix" value="Journal. Providence. ")
+    form(method='post')
+      input(type='text' placeholder="Haha" name='nts' size='48' maxlength='400')
+      input(type="hidden" name="prefix" value="Journal. Haha. ")
+    form(method='post')
+      input(type='text' placeholder="♥️" name='nts' size='48' maxlength='400')
+      input(type="hidden" name="prefix" value="Journal. Love. ")
+    form(method='post')
+      input(type='text' placeholder="€ cash" name='nts' size='48' maxlength='400')
+      input(type="hidden" name="prefix" value="EUR cash expense. ")
+    form(method='post')
+      input(type='text' placeholder="€ card" name='nts' size='48' maxlength='400')
+      input(type="hidden" name="prefix" value="EUR card expense. ")
